@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clothing",
+  "info": {
+    "singularName": "garment",
+    "pluralName": "clothing",
+    "displayName": "Clothing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "clothing.garment-info",
+      "required": true
+    },
+    "Sizes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "clothing.sizes",
+      "required": true
+    },
+    "ProductImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "clothing.color-images",
+      "required": true
+    },
+    "SKU": {
+      "type": "uid"
+    }
+  }
+}

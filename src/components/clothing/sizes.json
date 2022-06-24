@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_clothing_sizes",
+  "info": {
+    "displayName": "Sizes",
+    "icon": "map-signs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SizeName": {
+      "type": "enumeration",
+      "enum": [
+        "'4'",
+        "'6'",
+        "'8'"
+      ],
+      "required": true
+    },
+    "Info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "clothing.sizes-color-and-stock",
+      "required": true
+    }
+  }
+}

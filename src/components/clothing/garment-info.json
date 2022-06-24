@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_clothing_garment_infos",
+  "info": {
+    "displayName": "GarmentInfo",
+    "icon": "bread-slice"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Price": {
+      "type": "integer",
+      "required": true
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "tops",
+        "bottoms",
+        "accesorios"
+      ],
+      "required": true
+    },
+    "Subcategory": {
+      "type": "enumeration",
+      "enum": [
+        "buzos",
+        "chaquetas",
+        "overoles",
+        "impermeables",
+        "pantalones",
+        "sombreros",
+        "medias"
+      ],
+      "required": true
+    },
+    "Information": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

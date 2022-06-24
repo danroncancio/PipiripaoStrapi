@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_clothing_color_images",
+  "info": {
+    "displayName": "ColorImages",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Color": {
+      "type": "string",
+      "required": true
+    },
+    "Images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

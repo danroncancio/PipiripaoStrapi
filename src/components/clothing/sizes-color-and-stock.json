@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_clothing_sizes_color_and_stocks",
+  "info": {
+    "displayName": "SizesColorAndStock",
+    "icon": "bone"
+  },
+  "options": {},
+  "attributes": {
+    "Color": {
+      "type": "string",
+      "required": true
+    },
+    "Stock": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
